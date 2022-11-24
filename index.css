@@ -1,0 +1,183 @@
+body{
+	background-color: lightblue;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+p{  
+	margin: 71px;
+    font-size: 91px;
+	font-size: 39px;
+	font-size: 25px
+	margin: 76px 178px
+	font-family: verdana;
+	font-size: 20px;
+	color: red;
+	text-align: center;
+}
+
+h2{ 
+	text-align: center;
+	background-color: dodgerblue;
+}
+.rep1{
+	background-color: tomato;
+}
+.rep2{
+	background-color: rgb(255, 0, 0);
+}
+.rep3{
+	background-color: rgb(0, 0, 255);
+}
+.rep4{
+	background-color: rgb(238, 130, 238);
+}
+.rep5{
+	background-color: rgb(255, 165, 0);
+}
+.rep6{
+	background-color: rgb(106, 90, 205);
+}
+p.dotted {border-style: dotted;
+          border-color: red;}
+p.dashed {border-style: dashed;
+          border-color: green;}
+p.solid {border-style: solid;
+         border-color: red;
+}
+p.double {border-style: double;
+          border-color: green;}
+p.groove {border-style: groove;
+          border-color: red;}
+p.ridge {border-style: ridge;
+         border-color: green;}
+p.inset {border-style: inset;
+         border-color: red;}
+p.outset {border-style: outset;
+          border-color: green;}
+p.none {border-style: none;
+        border-color: red;}
+p.hidden {border-style: hidden;
+          border-color: green;}
+p.mix {border-style: dotted dashed solid double;
+       border-color: green;}
+       div {
+  padding: 70px;
+  border: 1px solid #4CAF50;
+}
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+ color: white;}
+ table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;}
+  #overflowTest {
+  background: #4CAF50;
+  color: white;
+  padding: 15px;
+  width: 50%;
+  height: 100px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
+}
+
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+}
+
+span.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+}
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
